@@ -1,0 +1,13 @@
+<!doctype HTML
+<head></head>
+<script>
+    const ROCK = "ROCK";
+    const PAPER = "PAPER";
+    const SCISSORS = "SCISSORS";
+
+    const types = [ROCK,PAPER,SCISSORS];
+
+    function computerPlay() {
+        return types[Math.floor(Math.random()*types.length)];
+    }
+</script>
